@@ -1,0 +1,15 @@
+AUDIO_ENABLE 		= no   	# Audio output on port C6
+BACKLIGHT_ENABLE 	= no	# Enable keyboard backlight functionality
+BLUETOOTH_ENABLE 	= no 	# Enable Bluetooth with the Adafruit EZ-Key HID
+BOOTMAGIC_ENABLE 	= no    # Virtual DIP switch configuration
+COMMAND_ENABLE 		= no	# Commands for debug and configuration
+CONSOLE_ENABLE 		= no    # Console for debug
+EXTRAKEY_ENABLE		= yes	# Audio and system control
+LTO_ENABLE			= yes   # Link-time optimization for decreasing firmware size (increases compile time)
+MIDI_ENABLE 		= no    # MIDI controls
+MOUSEKEY_ENABLE 	= no    # Mouse keys
+NKRO_ENABLE 		= no    # Nkey Rollover - if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
+OLED_DRIVER_ENABLE 	= yes	# Use improved OLED functionality
+RGBLIGHT_ENABLE 	= no	# Enable WS2812 RGB underlight.
+SLEEP_LED_ENABLE	= no	# Breathing sleep LED during USB suspend
+UNICODE_ENABLE 		= no 	# Unicode
