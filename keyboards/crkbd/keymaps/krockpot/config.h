@@ -34,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SOL_FONT    "keyboards/crkbd/keymaps/krockpot/glcdfonts/sol.c"
 #ifdef OLED_DRIVER_ENABLE
 #  define USE_SOL_FONT    // Select font with USE_<font_name>
-#  define ANIMATE_AVATAR  // Setting to make avatar toggle between alt mode
+//#  define ANIMATE_AVATAR  // Setting to make avatar toggle between alt mode
 #  ifdef USE_SOL_FONT
 #    define OLED_FONT_H SOL_FONT
 #  elif defined(USE_BUTT_FONT)

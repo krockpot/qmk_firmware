@@ -44,7 +44,7 @@ void render_status_primary(void) {
     render_space();
     render_layer_state();
     render_space();
-    render_keylogger_state();
+//    render_keylogger_state();
     render_space();
     render_space();
     render_mod_state(get_mods());
